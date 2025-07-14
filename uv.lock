@@ -3382,18 +3382,17 @@ wheels = [
 
 [[package]]
 name = "nomad-measurements"
-version = "1.1.2"
+version = "1.2.3"
 source = { registry = "https://gitlab.mpcdf.mpg.de/api/v4/projects/2187/packages/pypi/simple" }
 dependencies = [
     { name = "fairmat-readers-transmission" },
     { name = "fairmat-readers-xrd" },
     { name = "nomad-lab" },
-    { name = "nomad-material-processing" },
-    { name = "xmltodict" },
+    { name = "pynxtools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/51/50/9aa5eeccb1e1247d8ca729013c9a8068b76cd54c6a786b30ef5d86d822cf/nomad_measurements-1.1.2.tar.gz", hash = "sha256:4357bcfed8521c15b5e5fe196279e88b2b4105367ab1a24e72019d4959592f70", size = 9197422, upload-time = "2025-02-10T09:04:06.513Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d8/c2/3a3be5f57c9bd7bc1f2975df6c8aa61b13de32ab6f72943deea4b637a3da/nomad_measurements-1.2.3.tar.gz", hash = "sha256:5f92df5881d4b66972a6d3b05b809783960d85c6bcf91282d952f2a4b5d9ca4c", size = 9448684, upload-time = "2025-07-07T11:05:04.732Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b6/53/1a22c79a5a61fbabadf43980d21722e207ea79de2d12539959538427ac35/nomad_measurements-1.1.2-py3-none-any.whl", hash = "sha256:088ffe4d528149564fcc17830587ed43101ed608b8e96fc4909e716721981e77", size = 50813, upload-time = "2025-02-10T09:04:04.666Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/28/74b69278aa8f3c384be360e1069921e24e1b26251b9cfa15d242c959c732/nomad_measurements-1.2.3-py3-none-any.whl", hash = "sha256:c624b4db9bbfe0c12aaa6436da031000dc0f17000430fbc20eba0fb01466d7fb", size = 64076, upload-time = "2025-07-07T11:05:02.854Z" },
 ]
 
 [[package]]
